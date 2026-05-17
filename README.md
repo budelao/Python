@@ -32,7 +32,12 @@ Este repositório contém exemplos de aplicações Python para AWS Lambda organi
   - `requirements.txt`
   - `template.yaml`
 
-## Observação
+### 3. `api-externa-com-fastapi`
 
-O `README.md` dentro de `lambda-pipeline/` não foi alterado. Ele já contém detalhes sobre o pipeline e como usar o projeto.
-
+- Função AWS Lambda em Python.
+- Usa `FastAPI` com `Mangum` para integração com o SAM.
+- Consulta a API pública ViaCEP para buscar dados de CEP.
+- Principais arquivos:
+  - `app.py`
+  - `requirements.txt`
+  - `template.yaml`
