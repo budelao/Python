@@ -10,18 +10,6 @@ Exemplo de projeto com:
 ## Estrutura
 
 ```
-lambda-github-pipeline-example/
-├── app.py
-├── requirements.txt
-├── template.yaml
-├── tests/
-│   └── test_app.py
-├── .github/
-│   └── workflows/
-│       └── deploy.yml
-└── README.md
-
-Fazer:
 
 lambdas/
 
@@ -39,6 +27,7 @@ lambdas/
 │   ├── app.py
 │   ├── requirements.txt
 │   └── template.yaml
+│
 ├── processador-sqs/
 │   ├── app.py
 │   └── requirements.txt
