@@ -41,3 +41,13 @@ Este repositório contém exemplos de aplicações Python para AWS Lambda organi
   - `app.py`
   - `requirements.txt`
   - `template.yaml`
+
+### 4. `producer-rabbit-mq`
+
+- Função AWS Lambda em Python.
+- Faz um envio para SQS RabbitMQ.
+- Principais arquivos:
+  - `app.py`
+  - `requirements.txt`
+  - `template.yaml`
+  - `services\rabbit_service.py`
