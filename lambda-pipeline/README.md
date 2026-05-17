@@ -25,16 +25,20 @@ Fazer:
 
 lambdas/
 
-├── api-clientes/
+├── api-estados-mysql/
 │   ├── app.py
 │   ├── requirements.txt
 │   └── template.yaml
 │
-├── api-pedidos/
+├── api-externa/
 │   ├── app.py
 │   ├── requirements.txt
 │   └── template.yaml
 │
+├── api-externa-com-fastapi/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── template.yaml
 ├── processador-sqs/
 │   ├── app.py
 │   └── requirements.txt
@@ -54,6 +58,21 @@ AWS SAM CLI
 Docker Desktop
 
 ```
+
+## API externa com FastAPI
+
+A pasta `api-externa-com-fastapi/` agora contém uma Lambda que usa FastAPI e `Mangum` para integrar com o SAM.
+
+Como testar localmente:
+
+```bash
+cd api-externa-com-fastapi
+sam build --template template.yaml
+sam local start-api --template template.yaml --port 3000
+curl http://127.0.0.1:3000/cep/01310100
+```
+
+O endpoint retorna os dados de CEP usando a API pública ViaCEP.
 
 ## Como funciona a esteira
 
