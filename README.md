@@ -52,7 +52,7 @@ Este repositório contém exemplos de aplicações Python para AWS Lambda organi
   - `template.yaml`
   - `services\rabbit_service.py`
 
-  ### 4. `consumer-rabbit-mq`
+  ### 5. `consumer-rabbit-mq`
 
 - Função AWS Lambda em Python.
 - Faz leitura de mensagem RabbitMQ.
@@ -61,3 +61,14 @@ Este repositório contém exemplos de aplicações Python para AWS Lambda organi
   - `requirements.txt`
   - `template.yaml`
   - `services\rabbit_service.py`
+
+  ### 6. `utilizando-pytest`
+
+- Aplicação em Python com execução de testes com PyTest.
+- Principais arquivos:
+  - `carrinho.py`
+  - `checkout.py`
+  - `requirements.txt`
+  - `test_carrinho.py`
+  - `test_carrinho2.py`
+  - `test_checkout.py`
