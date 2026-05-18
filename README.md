@@ -7,6 +7,10 @@ Este repositório contém exemplos de aplicações Python para AWS Lambda organi
 - `lambda-pipeline/`
   - `api-estados-mysql/`
   - `api-externa/`
+  - `api-externa-com-fastapi/`
+  - `consumer-rabbit-mq/`
+  - `producer-rabbit-mq/`
+  - `utilizando-pytest/`
 
 ## APIs já implementadas em `lambda-pipeline`
 
@@ -21,6 +25,7 @@ Este repositório contém exemplos de aplicações Python para AWS Lambda organi
   - `requirements.txt`
   - `template.yaml`
 
+
 ### 2. `api-externa`
 
 - Função AWS Lambda em Python.
@@ -32,6 +37,7 @@ Este repositório contém exemplos de aplicações Python para AWS Lambda organi
   - `requirements.txt`
   - `template.yaml`
 
+
 ### 3. `api-externa-com-fastapi`
 
 - Função AWS Lambda em Python.
@@ -41,6 +47,7 @@ Este repositório contém exemplos de aplicações Python para AWS Lambda organi
   - `app.py`
   - `requirements.txt`
   - `template.yaml`
+
 
 ### 4. `producer-rabbit-mq`
 
@@ -52,7 +59,8 @@ Este repositório contém exemplos de aplicações Python para AWS Lambda organi
   - `template.yaml`
   - `services\rabbit_service.py`
 
-  ### 5. `consumer-rabbit-mq`
+
+### 5. `consumer-rabbit-mq`
 
 - Função AWS Lambda em Python.
 - Faz leitura de mensagem RabbitMQ.
@@ -62,7 +70,8 @@ Este repositório contém exemplos de aplicações Python para AWS Lambda organi
   - `template.yaml`
   - `services\rabbit_service.py`
 
-  ### 6. `utilizando-pytest`
+
+ ### 6. `utilizando-pytest`
 
 - Aplicação em Python com execução de testes com PyTest.
 - Principais arquivos:
